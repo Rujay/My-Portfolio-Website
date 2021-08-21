@@ -1,4 +1,4 @@
-//Toggle Hamburger menu
+//Toggle Hamburger menu for mobile
 (function($){
     "use strict";
      let NAY = {};
@@ -17,3 +17,8 @@
     });
 })(jQuery);  
 
+// Preloader fade out
+
+$(window).on('load', function(){
+    $('.preload-wrapper').fadeOut('slow');
+})
