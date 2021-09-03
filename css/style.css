@@ -215,6 +215,8 @@ button.hamburger-menu {
     background-position: top left;
 }
 
+
+
 .box {
     padding: 90px 0 50px;
 
@@ -380,10 +382,20 @@ button.hamburger-menu {
     left: -16px;
     z-index: -1;
 }
+.text {
+    line-height: 1.6;
+    letter-spacing: .4px;
+}
 
 .skills-icons i{
     font-size: 3rem;
     letter-spacing: 15px;
+}
+
+@media (max-width: 768px) {
+    .about-info {
+        padding-top: 3em;
+    }
 }
 
 #portfolio{
